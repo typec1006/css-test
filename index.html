@@ -6,12 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>test1</title>
     <link rel="stylesheet" href="style.css?2022=2">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 </head>
 <body>
     <div class="aaa">
-        <div class="inner">
-            qa1a23aaaaaaa<br>aaa<br>aaa<br>aaa<br>aaa<br>aaa<br>aaa<br>aaa<br>aaa<br>aaa<br>aaa<br>aaa<br>aaa<br></div>
-        </div>
+        qa1a23aaaaaaa<br>aaa<br>aaa<br>aaa<br>aaa<br>aaa<br>aaa<br>aaa<br>aaa<br>aaa<br>aaa<br>aaa<br>aaa<br></div>
     <div class="ccc">ccc</div>
+    <script>
+        $(document).ready(function () {
+            var windowHeight = $(window).height() - 10;
+            $(".aaa").css('min-height', windowHeight);
+        });
+    </script>
 </body>
 </html>
