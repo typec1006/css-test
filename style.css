@@ -19,8 +19,8 @@ body {
     height: 100vh;
     min-height: -webkit-fill-available;
     /* height: 100dvh; */
-    /* background: url("bg_diary-vw-golf-touran4.jpg") no-repeat; */
-    background: url("bg_diary-media-netflix.jpg") no-repeat;
+    background: url("bg_diary-vw-golf-touran4.jpg") no-repeat;
+    /* background: url("bg_diary-media-netflix.jpg") no-repeat; */
     background-size: cover;
 }
 .ccc {
